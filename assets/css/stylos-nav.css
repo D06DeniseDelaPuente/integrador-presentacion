@@ -1,0 +1,44 @@
+/* estilos de barra de navegacion*/
+.cabecera{
+	align-items: center;
+	background: #7e7b7b;
+	display: flex;
+	height: 80px;
+	justify-content: space-between;
+	padding-left: 2rem;
+	padding-right: 1rem;
+	padding-top: 1rem;
+	
+}
+
+/*items de la barra de navegacion*/
+/*listas*/
+.menu__lista{
+	display: flex;
+	margin-left: 2rem; 
+	}
+
+.menu__item{
+	list-style: none;
+
+}
+
+/*link*/
+.menu__link{
+	color: #ffffff;
+	margin-right: 4rem;
+	text-decoration: none;
+	text-transform: lowercase;
+	font-size: 1.25rem;
+}
+
+.menu__link.activo{
+	color: #c7990d;
+	font-weight: bolder;
+}
+
+.menu__link:hover{
+	color: #c7990d;
+	text-decoration: underline;
+}
+

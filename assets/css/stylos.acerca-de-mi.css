@@ -1,0 +1,41 @@
+.acercaDe{
+	width: 100%;
+	margin-bottom: 0.5rem;
+}
+.acercaDe__titulo {
+	font-size: 2.5rem;
+	padding-top: 2rem;
+	text-align: center;
+	color:#e8e6e1 ;
+}
+.acercaDe__imagen__seccion{
+	align-items: center;
+	position: relative;
+	display: flex;
+}
+
+.acercaDe__info{
+	display: flex;
+	padding-top: 1rem;
+	
+}
+
+.acercaDe__imagen{
+	border-radius: 50%;
+	margin-left: 5rem;
+	margin-top: 0.5rem;
+	width: 15%;
+
+  
+}
+.acercaDe__texto{
+	font-size: 1.25rem;
+	padding-top: 1rem;
+	color: #534f4f;
+	display: flex;
+	justify-content: space-between;
+	line-height: 1.5rem;
+	padding-left: 5rem;
+	margin-right: 3rem;
+}
+

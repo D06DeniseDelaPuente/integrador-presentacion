@@ -1,0 +1,35 @@
+.footer{
+	width: 100%;
+	height: 10rem;
+	background-color: #7e7b7b;
+	align-items: center;
+	 }
+
+
+.footer__uno .menu__red{
+	display: flex;
+	justify-content: center;
+}
+
+.footer__uno .menu__red .menu__item{
+	padding: 2rem;
+	padding-top: 2rem;
+	padding-bottom: .5rem;
+}
+
+.footer__uno .menu__red .menu__item .menu__link2 {
+	color: #fdfdfd;
+	font-size: 1.5rem;
+}
+
+.footer__uno .menu__red .menu__item .menu__link2:hover{
+	color: #eda514;
+}
+
+.footer .footer__dos{
+	text-align: center;
+	color: #fdfdfd;
+	font-size: 1rem;
+	padding-top: 1rem;
+	padding-bottom: 0;
+}
